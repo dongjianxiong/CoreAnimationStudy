@@ -15,6 +15,7 @@
 		92BF5F10224CC7FF001E0DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BF5F0F224CC7FF001E0DF0 /* main.m */; };
 		92BF5F1A224CC800001E0DF0 /* CoreAnimationStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BF5F19224CC800001E0DF0 /* CoreAnimationStudyTests.m */; };
 		92BF5F25224CC800001E0DF0 /* CoreAnimationStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BF5F24224CC800001E0DF0 /* CoreAnimationStudyUITests.m */; };
+		92BF5F34224CC86B001E0DF0 /* LNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BF5F33224CC86B001E0DF0 /* LNView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		92BF5F20224CC800001E0DF0 /* CoreAnimationStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92BF5F24224CC800001E0DF0 /* CoreAnimationStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationStudyUITests.m; sourceTree = "<group>"; };
 		92BF5F26224CC800001E0DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92BF5F32224CC86B001E0DF0 /* LNView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNView.h; sourceTree = "<group>"; };
+		92BF5F33224CC86B001E0DF0 /* LNView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				92BF5F0B224CC7FF001E0DF0 /* LaunchScreen.storyboard */,
 				92BF5F0E224CC7FF001E0DF0 /* Info.plist */,
 				92BF5F0F224CC7FF001E0DF0 /* main.m */,
+				92BF5F32224CC86B001E0DF0 /* LNView.h */,
+				92BF5F33224CC86B001E0DF0 /* LNView.m */,
 			);
 			path = CoreAnimationStudy;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 		92BF5EF5224CC7FD001E0DF0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LN;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Lenny;
 				TargetAttributes = {
@@ -262,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92BF5F34224CC86B001E0DF0 /* LNView.m in Sources */,
 				92BF5F05224CC7FE001E0DF0 /* ViewController.m in Sources */,
 				92BF5F10224CC7FF001E0DF0 /* main.m in Sources */,
 				92BF5F02224CC7FE001E0DF0 /* AppDelegate.m in Sources */,
@@ -435,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoreAnimationStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoreAnimationStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
